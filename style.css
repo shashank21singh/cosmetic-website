@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+}
+/* .border:hover *{
+    border: 1px solid blue;
+} */
+.header{
+    height: 50px;
+    background-image: url("light.jpeg");
+    background-size: cover;
+    display: flex;
+}
+.first{
+    color: rgb(5, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    padding-top: .5rem;
+    animation-name: best;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+@keyframes best{
+    from{color: rgb(5, 0, 0);}
+    to{color: rgb(248, 0, 0);}
+}
+ .nav{
+    height: 50px;
+    margin-left: 50rem;
+    font-size: 1rem;
+    display: flex;
+justify-content: space-evenly;
+   padding-top: 1rem;
+}
+.nav p{
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+    font-family: sans-serifs;
+}
+.newnav{
+    height: 80px;
+    border-bottom: .5px solid #EEE5E8 ;
+    display: flex;
+   
+}
+.text{
+    height: 30px;
+    font-family: arial;
+  font-size: larger;
+  font-weight: bolder;
+  color: rgb(240, 72, 100);
+  margin-top: 1.75rem;
+  margin-left: 1rem;
+  
+}
+.options p{
+    display: inline;
+    justify-content: space-evenly;
+    justify-content: center;  
+    margin-left: 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serifs;
+}
+input{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: larger;
+    border: 1.5px solid black;
+    height: 30px;
+    margin-bottom: 40px;
+}
+input:hover{
+    border: 2px solid black;
+}
+/* .search-icon{
+    height: 40px;
+    margin-right: 40px;
+    font-size: 2.5rem;
+} */
+button{
+    background-color: #FF8E88;
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    border: 2px solid #FF8E88;
+    border-radius: .5rem;
+}
+button:hover{
+    border: 2px solid black;
+}
+    .lastnav{
+        height: 60px;
+        border-bottom:.5px solid #EEE5E8;
+    display: flex;
+        justify-content: space-evenly;
+        font-family: sans-serif;
+        font-weight: lighter;
+        color: #7D666D;
+        margin-top: 2rem; 
+    }
+    .hero{
+        height: 500px;
+        display: flex;
+    }
+    #fair{
+        height: 450px;
+        width: 350px;
+        border-radius: .75rem;
+        background-image: url("fair 2.jpg");
+        background-size: cover;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+   #ponds{
+    height: 450px;
+        width: 350px;
+        border-radius: .75rem;
+        background-image: url("ponds.jpg");
+        background-size: cover;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    #lakme{
+        height: 450px;
+            width: 350px;
+            border-radius: .75rem;
+            background-image: url("Screenshot (221).png");
+            background-size: cover;
+            margin-left: 2rem;
+            margin-top: 1rem;
+        }
+        #maybelline{
+            height: 450px;
+                width: 350px;
+                border-radius: .75rem;
+                background-image: url("maybelline.webp");
+                background-size: cover;
+                margin-left: 2rem;
+        }    
+        .big
+        {
+            height: 400px;
+            background-color: #EEE5E8;
+            background-image: url("nykaa.webp");
+            background-size: cover ;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            border-radius: .75rem;
+        }
+        .sunscreen{
+            height: 330px; 
+
+            display: flex; 
+        }
+        .explore{
+            height: 50px;
+            font-weight: bold;
+            font-size: 2rem;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #lakmesun{
+            height: 250px;
+            width: 250px;
+            background-image: url("lakmesun.jpeg");
+            background-size: cover;
+            margin-top: 1rem;
+            margin-left: 1rem;
+            border-radius: 1rem
+        }
+        #pondssun{
+            height: 250px;
+            width: 250px;
+            background-image: url("pondssun.webp");
+            background-size: cover;
+            margin-top: 1rem;
+            margin-left: 1rem;
+            border-radius: 1rem
+        }
+        #vlccsun{
+            height: 250px;
+            width: 250px;
+            background-image: url("vlccsun.jpeg");
+            background-size: cover; 
+            margin-top: 1rem;
+            margin-left: 1rem;
+            border-radius: 1rem
+        }
+        #lotussun{
+            height: 250px;
+            width: 250px;
+            background-image: url("lotus.jpg");
+            background-size: cover;
+            margin-top: 1rem;
+            margin-left: 1rem;
+            border-radius: 1rem
+        }
+        #naturessun{
+            height: 250px;
+            width: 250px;
+            background-image: url("nature.jpg");
+            background-size: cover;
+            margin-top: 1rem;
+             margin-left: 1rem; 
+            border-radius: 1rem
+        }
+        .bangels{
+            height: 500px;
+            background-image: url("bangels.jpg");
+            background-size: cover;
+         margin-left: 1rem;
+         margin-right: 1rem;
+        }
+        .hand{
+            height: 70px;
+            margin-left: 1rem;
+            font-weight: bolder;
+            font-size: 2rem;
+            margin-top: 1rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+        .bang{
+            height: 350px;
+            display: flex;
+        }
+        .explorebang{
+            height: 50px;
+            margin-left: 1rem;
+            font-weight: bold;
+            font-size: 2rem;
+            margin-top: 1rem;
+            font-family: Georgia, 'Times New Roman', Times, se
+        }
+        #bangles1{
+            height: 250px;
+            width: 250px;
+            background-image: url("bangel1.jpeg");
+            margin-top: 1rem;
+            margin-left: 1rem;
+            border-radius: 1rem;
+        }
+        #bangles2{
+            height: 250px;
+            width: 250px;
+            background-image: url("bangel2.jpeg");
+            margin-top: 1rem;
+            margin-left: 1rem;
+            border-radius: 1rem;
+        }
+        #bangles3{
+            height: 250px;
+            width: 250px;
+            background-image: url("bangel3.jpeg");
+            margin-top: 1rem;
+            margin-left: 1rem;
+            border-radius: 1rem;
+        }
+        #bangles4{
+            height: 250px;
+            width: 250px;
+            background-image: url("bangel4.jpeg");
+            margin-top: 1rem;
+            margin-left: 1rem;
+            border-radius: 1rem;
+        }
+        #bangles5{
+            height: 250px;
+            width: 250px;
+            background-image: url("bangel5.jpeg");
+            margin-top: 1rem;
+            margin-left: 1rem;
+            border-radius: 1rem;
+        }
+        .foot{
+            height: 200px;
+            background-color: #181717;
+        }

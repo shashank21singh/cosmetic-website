@@ -1,0 +1,15 @@
+*{
+   
+     margin-left: 3rem;
+}
+input{
+justify-content: center;
+align-items: center;
+}
+label{
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    margin-top: 1rem;
+}
